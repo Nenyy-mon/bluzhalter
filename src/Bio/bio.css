@@ -1,0 +1,83 @@
+.allBio {
+    background-color: black;
+    background-image: url("../assets/images/pics/Screenshot_4.png"),
+        url("../assets/images/pics/logospng/Asset\ 3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.919);
+}
+.bioMiddle {
+    position: absolute;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    top: 5em;
+}
+.bio {
+    color: #ffcd36;
+    font-size: 1em;
+    font-weight: 900;
+}
+.description {
+    margin-top: 5em;
+    width: 70vw;
+    font-size: large !important;
+    line-height: 1.2em !important;
+    color: #ffcd36;
+}
+span {
+    font-weight: 900;
+}
+
+@media (max-width: 750px) {
+    .allBio {
+        background-color: black;
+        background-image: url("../assets/images/pics/Screenshot_4.png"),
+            url("../assets/images/pics/logospng/Asset\ 3.png");
+        background-position: center;
+        background-repeat: repeat;
+        width: 100vw;
+        height: 100vh;
+        background-size: contain;
+    }
+
+    .background {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.919);
+    }
+    .bioMiddle {
+        position: absolute;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        top: 5em;
+    }
+    .bio {
+        color: #ffcd36;
+        font-size: 1em;
+        font-weight: 900;
+    }
+    .description {
+        margin-top: 1em !important;
+        width: 80vw !important;
+        font-size: x-small !important;
+        line-height: 1.5em !important;
+        color: #ffcd36;
+    }
+    span {
+        font-weight: 900;
+    }
+}

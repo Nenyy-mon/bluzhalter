@@ -1,0 +1,67 @@
+.merchAll {
+  background-color: black;
+  background-image: url("../assets/images/pics/Screenshot_5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.merchMiddle {
+  position: absolute;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  top: 5em;
+}
+.secondMerch {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.919);
+}
+.merch {
+  color: #ffcd36;
+  font-size: 1em;
+  font-weight: 900;
+}
+.load {
+  font-size: 6em;
+  margin-top: 2em;
+
+  color: #ffcd36;
+}
+span {
+  font-weight: 900;
+}
+
+.strel {
+  margin-bottom: 1em;
+}
+
+@media (max-width: 750px) {
+  .merchAll {
+    background-size: contain;
+    background-repeat: repeat;
+  }
+  .merch {
+    color: #ffcd36;
+    font-size: 1em;
+    font-weight: 900;
+  }
+  .load {
+    font-size: 4em;
+    margin-top: 2em;
+
+    color: #ffcd36;
+  }
+  span {
+    font-weight: 900;
+  }
+
+  .strel {
+    margin-bottom: 1em;
+  }
+}

@@ -1,0 +1,50 @@
+.allGall {
+  background-image: url("../assets/images/pics/Screenshot_1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.733);
+}
+.slide-container {
+  position: absolute;
+  width: 50vw;
+  align-self: center;
+  top: 1em;
+}
+.gallMiddle {
+  position: absolute;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  top: 5em;
+}
+.gallery {
+  color: #ffcd36;
+  font-size: 1em;
+  font-weight: 900;
+}
+.description {
+  margin-top: 5em;
+  width: 70vw;
+  font-size: 0.8em;
+
+  color: #ffcd36;
+}
+span {
+  font-weight: 900;
+}
+
+@media (max-width: 750px) {
+  .allGall {
+    background-image: url("../assets/images/pics/Screenshot_1.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+  }
+}
