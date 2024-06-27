@@ -66,6 +66,8 @@
   .firstLayer {
     width: 100vw;
     height: 100vh;
+    background-size: contain;
+    background-repeat: repeat;
   }
   .secondLayer {
     background-size: 5em;

@@ -9,12 +9,7 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.733);
 }
-.slide-container {
-  position: absolute;
-  width: 50vw;
-  align-self: center;
-  top: 1em;
-}
+
 .gallMiddle {
   position: absolute;
   height: fit-content;
@@ -29,17 +24,39 @@
   font-size: 1em;
   font-weight: 900;
 }
-.description {
-  margin-top: 5em;
-  width: 70vw;
-  font-size: 0.8em;
 
-  color: #ffcd36;
-}
 span {
   font-weight: 900;
 }
 
+.sliderComp {
+  display: flex;
+  gap: 10vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  overflow-x: auto;
+  width: 70vw;
+  height: 80vh;
+}
+.imgSlide {
+  width: 20vw !important;
+  object-fit: cover;
+  border: 1px solid #ffcd36;
+}
+.arrowPrev {
+  transform: rotate(180deg);
+  padding: 1em;
+  position: absolute;
+  left: 10em;
+  cursor: pointer;
+}
+.arrowNext {
+  padding: 1em;
+  position: absolute;
+  right: 10em;
+  cursor: pointer;
+}
 @media (max-width: 750px) {
   .allGall {
     background-image: url("../assets/images/pics/Screenshot_1.png");

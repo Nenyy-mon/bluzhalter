@@ -31,8 +31,8 @@
 .description {
     margin-top: 5em;
     width: 70vw;
-    font-size: large !important;
-    line-height: 1.2em !important;
+    font-size: small;
+    line-height: 1.2em;
     color: #ffcd36;
 }
 span {
@@ -71,10 +71,10 @@ span {
         font-weight: 900;
     }
     .description {
-        margin-top: 1em !important;
-        width: 80vw !important;
-        font-size: x-small !important;
-        line-height: 1.5em !important;
+        margin-top: 1em;
+        width: 80vw;
+        font-size: x-small;
+        line-height: 1.5em;
         color: #ffcd36;
     }
     span {

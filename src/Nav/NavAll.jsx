@@ -1,4 +1,3 @@
-import arrow from '../assets/images/pics/logospng/ArrowAsset 3.svg'
 import instaLogo from '../assets/images/pics/logospng/instagram-with-circle.svg'
 import tiktokLogo from '../assets/images/pics/logospng/Asset 2.svg'
 import youtubeLogo from '../assets/images/pics/logospng/youtube-with-circle.svg'
@@ -48,10 +47,8 @@ function NavAll() {
         </div> 
         <div className={visible ? "mainNavActive" : "mainNav"}> 
             <ul className="listAll">
-            <NavLink className='strel' to={'/bluzhalter/main'}>
-                <img className='arr' src={arrow}  />
-            </NavLink>
-
+            
+            <NavLink to={'/bluzhalter/main'}><li className={bioActive ? "listItems" : "activelistItems"}>HOME</li></NavLink>
             <NavLink to={'/bluzhalter/bio'}><li className={bioActive ? "listItems" : "activelistItems"}>BIOGRAPHY</li></NavLink>
             <NavLink to={'/bluzhalter/gallery'}><li className={gallActive ? "listItems" : "activelistItems"}>GALLERY</li></NavLink>
             <NavLink to={'/bluzhalter/merch'}><li className={merchActive ? "listItems" : "activelistItems"}>MERCH</li></NavLink>

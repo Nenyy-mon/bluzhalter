@@ -7,7 +7,8 @@ import MainBio from "./Bio/MainBio.jsx";
 import MainGallery from "./Gallery/MainGallery.jsx";
 import MerchMain from "./Merch/MerchMain.jsx";
 import PrelandMain from "./PreLand/PrelandMain.jsx";
-
+import { register } from 'swiper/element/bundle';
+register()
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
