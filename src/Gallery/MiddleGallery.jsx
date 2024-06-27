@@ -1,4 +1,4 @@
-const modules = import.meta.glob(`https://nenyy-mon.github.io/bluzhalter/src/assets/images/smallerGall/
+const modules = import.meta.glob(`/bluzhalter/src/assets/images/smallerGall/
 *.{png,jpg,jpeg,PNG,JPEG}`)
 
 const gallery = Object.keys(modules).map((path) => new URL(path, import.meta.url).href);
