@@ -1,11 +1,10 @@
-const modules = import.meta.glob(`/bluzhalter/src/assets/images/smallerGall/
+const modules = import.meta.glob(`/src/assets/images/smallerGall/
 *.{png,jpg,jpeg,PNG,JPEG}`)
 
 const gallery = Object.keys(modules).map((path) => new URL(path, import.meta.url).href);
 import { Swiper,SwiperSlide } from "swiper/react"
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
-'/src/assets/images/smallerGall'
 import './styles.css';
 import { EffectCoverflow} from "swiper/modules";
 
