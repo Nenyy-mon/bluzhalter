@@ -1,4 +1,4 @@
-const modules = import.meta.glob('../assets/images/smallerGall/*.{png,jpg,jpeg,PNG,JPEG}')
+const modules = import.meta.glob('../src/assets/images/smallerGall/*.{png,jpg,jpeg,PNG,JPEG}')
 const gallery = Object.keys(modules).map((path) => new URL(path, import.meta.url).href);
 
 import { Swiper,SwiperSlide } from "swiper/react"
