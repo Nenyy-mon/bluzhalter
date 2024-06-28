@@ -20,11 +20,11 @@ function MiddleGallery() {
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={'auto'}
-        loop={true}
         autoplay={{
             delay: 3500,
           disableOnInteraction: false,
         }}
+        loop={true}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
