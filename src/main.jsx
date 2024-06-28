@@ -12,7 +12,7 @@ register()
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HashRouter  >
-    <Routes basename="/bluzhalter">
+    <Routes basename="/bluzhalter#">
       <Route path="/bluzhalter" element={<PrelandMain/>} />
       <Route path="/bluzhalter/bio" element={<MainBio/>} />
       <Route path="/bluzhalter/gallery" element={<MainGallery/>} />
