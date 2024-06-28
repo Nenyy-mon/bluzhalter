@@ -1,5 +1,5 @@
 
-const gallery = Object.values(import.meta.glob('/src/assets/images/smallerGall/*.{png,jpg,jpeg,PNG,JPEG}', { eager: true, query: '?url', }))
+const gallery = Object.values(import.meta.glob('/src/assets/images/smallerGall/*.{png,jpg,jpeg,PNG,JPEG}', { eager: true, query: '?url', import:'defalut' }))
 
 import { Swiper,SwiperSlide } from "swiper/react"
 import 'swiper/css';
