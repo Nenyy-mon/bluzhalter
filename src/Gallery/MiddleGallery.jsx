@@ -1,5 +1,5 @@
 
-const gallery = Object.values(import.meta.glob('/src/assets/images/smallerGall/*.{png,jpg,jpeg,PNG,JPEG}', { eager: true, query: '?url'}))
+const gallery = Object.values(import.meta.glob('../assets/images/smallerGall/*.{png,jpg,jpeg,PNG,JPEG}', { eager: true, as: 'url'}))
 
 import { Swiper,SwiperSlide } from "swiper/react"
 import 'swiper/css';
@@ -21,10 +21,10 @@ function MiddleGallery() {
         centeredSlides={true}
         slidesPerView={'auto'}
         loop={true}
-        autoplay={{
-            delay: 3500,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //     delay: 3500,
+        //   disableOnInteraction: false,
+        // }}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
