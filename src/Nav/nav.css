@@ -45,10 +45,10 @@
 .icon-one {
   display: block;
   position: absolute;
-  width: 4vw;
-  height: 4vw;
+  width: 5vw;
+  height: 5vw;
   left: 2em;
-  top: 5em;
+  top: 4.5em;
   cursor: pointer;
   z-index: 3;
   transition: 0.5s;
@@ -56,7 +56,7 @@
 .icon-active {
   position: absolute;
   left: 2em;
-  top: 5em;
+  top: 4.5em;
   width: 4vw;
   height: 4vw;
   cursor: pointer;
@@ -82,10 +82,9 @@
   margin-bottom: 1em;
 }
 .burgerMenu {
-  bottom: 17px;
+  bottom: 1vw;
   width: 4vw;
-  border-radius: 10px;
-  height: 3px;
+  height: 5px;
   background-color: #ffcd34;
   position: absolute;
   display: block !important;
@@ -98,9 +97,8 @@
   display: block;
   content: "";
   width: 100%;
-  height: 3px;
+  height: 5px;
   background-color: #ffcd34;
-  border-radius: 10px !important;
   transition: 1s;
 }
 .icon-one .burgerMenu::before {
@@ -142,7 +140,6 @@
   .burgerMenu {
     bottom: 17px;
     width: 4vw;
-    border-radius: 10px;
     height: 2px;
     background-color: #ffcd34;
     position: absolute;
@@ -158,7 +155,6 @@
     width: 100%;
     height: 2px;
     background-color: #ffcd34;
-    border-radius: 10px;
     transition: 1s;
   }
   .icon-one .burgerMenu::before {
