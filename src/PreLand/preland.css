@@ -50,13 +50,13 @@
   justify-content: center;
   align-items: center;
   font-size: xx-large;
-  font-weight: 900;
+  font-family: "Garet Heavy";
   margin-top: 3em;
 }
 .linkse {
   padding-left: 1em;
   padding-right: 1em;
-  font-weight: 800;
+  font-family: "Garet Heavy";
   text-decoration: underline;
   text-underline-position: below;
   text-underline-offset: 0.3em;

@@ -1,3 +1,18 @@
+@font-face {
+  font-family: Garet Book;
+  src: url("./assets/fonts/Garet-Book.otf");
+  src: url("./assets/fonts/Garet-Book.ttf");
+  src: url("./assets/fonts/Garet-Book.woff");
+  src: url("./assets/fonts/Garet-Book.woff2");
+}
+@font-face {
+  font-family: Garet Heavy;
+  src: url("./assets/fonts/Garet-Heavy.otf");
+  src: url("./assets/fonts/Garet-Heavy.ttf");
+  src: url("./assets/fonts/Garet-Heavy.woff");
+  src: url("./assets/fonts/Garet-Heavy.woff2");
+}
+
 body,
 html {
   width: 100vw;
@@ -5,5 +20,5 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: "Craftwork Grotesk";
+  font-family: "Garet Book" !important;
 }

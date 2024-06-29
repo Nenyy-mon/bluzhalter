@@ -30,11 +30,12 @@
 .load {
   font-size: 6em;
   margin-top: 2em;
-
+  font-family: "Garet Heavy" !important;
   color: #ffcd36;
 }
 span {
-  font-weight: 900;
+  font-family: "Garet Heavy" !important;
+  font-size: larger;
 }
 
 .strel {
@@ -58,7 +59,7 @@ span {
     color: #ffcd36;
   }
   span {
-    font-weight: 900;
+    font-family: "Garet Heavy";
   }
 
   .strel {
