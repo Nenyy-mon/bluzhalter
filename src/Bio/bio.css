@@ -54,7 +54,7 @@ span {
     .background {
         width: 100vw;
         height: 100vh;
-        background-color: rgba(0, 0, 0, 0.919);
+        background-color: rgba(0, 0, 0, 0.819);
     }
     .bioMiddle {
         position: absolute;
@@ -73,7 +73,7 @@ span {
     .description {
         margin-top: 1em;
         width: 80vw;
-        font-size: x-small;
+        font-size: xx-small;
         line-height: 1.5em;
         color: #ffcd36;
     }

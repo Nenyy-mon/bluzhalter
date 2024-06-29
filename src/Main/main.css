@@ -117,7 +117,7 @@ a {
 
 @media (max-width: 750px) {
   .allMain {
-    background-size: cover;
+    background-size: contain;
     overflow-y: hidden;
   }
   .secondMain {
